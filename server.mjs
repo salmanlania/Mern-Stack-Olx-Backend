@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json()); // body parser
 app.use(cookieParser()); // cookie parser
 app.use(cors({
-    origin: ['https://laniaolxmern.web.app/'],
+    origin: ['https://laniaolxmern.web.app', 'http://localhost:5173'],
     credentials: true
 }));
 
